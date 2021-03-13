@@ -1,17 +1,22 @@
+## Fork Notes
+
+This is a Mastodon fork used for [Island 岛屿](https://mast.dragon-fly.club). The [main branch](https://github.com/HolgerHuo/mastodon/commits/main) is a rebase fork with all local edits rebased at the top of the commits, and the [dev branch](https://github.com/HolgerHuo/mastodon/commits/dev) has chronologically timelined commits.
+
 ![Mastodon](https://i.imgur.com/NhZc40l.png)
 ========
 
-[![GitHub release](https://img.shields.io/github/release/tootsuite/mastodon.svg)][releases]
-[![Build Status](https://img.shields.io/circleci/project/github/tootsuite/mastodon.svg)][circleci]
-[![Code Climate](https://img.shields.io/codeclimate/maintainability/tootsuite/mastodon.svg)][code_climate]
+[![GitHub release](https://img.shields.io/github/release/holgerhuo/mastodon.svg)][releases]
+<!--[![Build Status](https://img.shields.io/circleci/project/github/mastodon/mastodon.svg)][circleci]
+[![Code Climate](https://img.shields.io/codeclimate/maintainability/holgerhuo/mastodon.svg)][code_climate]
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/mastodon/localized.svg)][crowdin]
-[![Docker Pulls](https://img.shields.io/docker/pulls/tootsuite/mastodon.svg)][docker]
+[![Docker Pulls](https://img.shields.io/docker/pulls/tootsuite/mastodon.svg)][docker]-->
 
-[releases]: https://github.com/tootsuite/mastodon/releases
-[circleci]: https://circleci.com/gh/tootsuite/mastodon
+[releases]: https://github.com/holgerhuo/mastodon/releases
+<!--[circleci]: https://circleci.com/gh/tootsuite/mastodon
 [code_climate]: https://codeclimate.com/github/tootsuite/mastodon
 [crowdin]: https://crowdin.com/project/mastodon
-[docker]: https://hub.docker.com/r/tootsuite/mastodon/
+
+[docker]: https://hub.docker.com/r/tootsuite/mastodon/-->
 
 Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub)!
 
