@@ -19,8 +19,6 @@ class PublicFeed
   # @param [Integer] min_id
   # @return [Array<Status>]
   def get(limit, max_id = nil, since_id = nil, min_id = nil)
-    return [] if account_is_bot?
-
     scope = public_scope
 
     scope.merge!(without_replies_scope) unless with_replies?
@@ -36,10 +34,6 @@ class PublicFeed
   private
 
   attr_reader :account, :options
-
-  def account_is_bot?
-    @account.bot?
-  end
 
   def with_reblogs?
     options[:with_reblogs]
